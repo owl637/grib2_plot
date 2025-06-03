@@ -5,7 +5,8 @@ import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
 import cartopy.crs as ccrs
 import tempfile
-import japanize_matplotlib
+
+plt.rcParams["font.family"] = "IPAexGothic"  # Streamlit Cloud にもともと入っているフォント名
 
 st.set_page_config(layout="wide")
 st.title("GPVモデルデータの可視化")
