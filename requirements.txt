@@ -1,0 +1,5 @@
+streamlit
+pygrib
+matplotlib
+cartopy
+japanize-matplotlib
